@@ -92,4 +92,13 @@
 	[remainingLabel removeFromSuperview];
 }
 
++(MPMoviePlayerController*)playAudio:(NSString*)musicLocation
+{
+	MPMoviePlayerController *newPlayer = [[MPMoviePlayerController alloc] initWithContentURL:
+										  [NSURL URLWithString:musicLocation]] ;
+	[newPlayer play];
+	return newPlayer;
+}
+
+
 @end

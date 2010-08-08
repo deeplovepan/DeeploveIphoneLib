@@ -23,6 +23,7 @@
 		DD852973120E7C8000CA061C /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DD85296C120E7C8000CA061C /* SBJsonParser.m */; };
 		DD852974120E7C8000CA061C /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = DD85296E120E7C8000CA061C /* SBJsonWriter.m */; };
 		DD85298A120E840F00CA061C /* ExJson.m in Sources */ = {isa = PBXBuildFile; fileRef = DD852989120E840F00CA061C /* ExJson.m */; };
+		DD852A6E120EAAB000CA061C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD852A6D120EAAB000CA061C /* MediaPlayer.framework */; };
 		DDA3A480120D4B2D00375DA1 /* MyTime.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA3A47F120D4B2D00375DA1 /* MyTime.m */; };
 		DDA3A4D6120D4FE300375DA1 /* MyMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA3A4D5120D4FE300375DA1 /* MyMusic.m */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		DD85296E120E7C8000CA061C /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		DD852988120E840F00CA061C /* ExJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExJson.h; sourceTree = "<group>"; };
 		DD852989120E840F00CA061C /* ExJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExJson.m; sourceTree = "<group>"; };
+		DD852A6D120EAAB000CA061C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		DDA3A47E120D4B2D00375DA1 /* MyTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTime.h; sourceTree = "<group>"; };
 		DDA3A47F120D4B2D00375DA1 /* MyTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTime.m; sourceTree = "<group>"; };
 		DDA3A4D4120D4FE300375DA1 /* MyMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMusic.h; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				DD852A6E120EAAB000CA061C /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +145,7 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				DD852A6D120EAAB000CA061C /* MediaPlayer.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

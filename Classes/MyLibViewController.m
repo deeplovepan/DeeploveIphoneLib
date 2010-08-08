@@ -7,9 +7,17 @@
 //
 
 #import "MyLibViewController.h"
+#import "MyMusic.h"
 
 @implementation MyLibViewController
 
+-(IBAction)butPressed:(id)sender
+{
+	MPMoviePlayerController *player = [MyMusic playAudio:@"http://download.yojutsu.com/paulcmusic/paulcooper-twilight.mp3"];
+	[self.view addSubview:player.view];
+	player.view.frame = CGRectMake(0, 0, 200, 200);
+	player.view.center = CGPointMake(160, 240);
+}
 
 
 /*

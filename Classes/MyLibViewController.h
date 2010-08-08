@@ -11,6 +11,7 @@
 @interface MyLibViewController : UIViewController {
 
 }
+-(IBAction)butPressed:(id)sender;
 
 @end
 

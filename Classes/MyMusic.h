@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
+#import <MediaPlayer/MPMoviePlayerController.h>
 
 @interface MyMusic : NSObject {
 	UISlider *slider;
@@ -23,4 +24,5 @@
 					   sliderWidth:(float)sliderWidth;
 -(void)updateMusicSlder:(AVAudioPlayer*)newPlayer;
 -(void)enableSliderChange;
++(MPMoviePlayerController*)playAudio:(NSString*)musicLocation;
 @end
