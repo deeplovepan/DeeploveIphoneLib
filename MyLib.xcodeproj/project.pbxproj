@@ -26,6 +26,7 @@
 		DD852A6E120EAAB000CA061C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD852A6D120EAAB000CA061C /* MediaPlayer.framework */; };
 		DDA3A480120D4B2D00375DA1 /* MyTime.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA3A47F120D4B2D00375DA1 /* MyTime.m */; };
 		DDA3A4D6120D4FE300375DA1 /* MyMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA3A4D5120D4FE300375DA1 /* MyMusic.m */; };
+		DDB86D391210560A00D92475 /* adHocDistribution in Resources */ = {isa = PBXBuildFile; fileRef = DDB86D381210560A00D92475 /* adHocDistribution */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		DDA3A47F120D4B2D00375DA1 /* MyTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTime.m; sourceTree = "<group>"; };
 		DDA3A4D4120D4FE300375DA1 /* MyMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMusic.h; sourceTree = "<group>"; };
 		DDA3A4D5120D4FE300375DA1 /* MyMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMusic.m; sourceTree = "<group>"; };
+		DDB86D381210560A00D92475 /* adHocDistribution */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = adHocDistribution; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				DDB86D37121055F600D92475 /* note */,
 				DD852987120E83F300CA061C /* example */,
 				DD852953120E7C5700CA061C /* OtherLib */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -187,6 +190,14 @@
 			name = example;
 			sourceTree = "<group>";
 		};
+		DDB86D37121055F600D92475 /* note */ = {
+			isa = PBXGroup;
+			children = (
+				DDB86D381210560A00D92475 /* adHocDistribution */,
+			);
+			name = note;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -231,6 +242,7 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* MyLibViewController.xib in Resources */,
+				DDB86D391210560A00D92475 /* adHocDistribution in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
