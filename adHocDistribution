@@ -1,0 +1,9 @@
+1. create and download distribution certificate
+   ( must also have p12 file for distribution certificate) 
+
+2. create  and download provisioning profile for ad hoc distribution
+
+
+3.  3.1.2需新增Entitlements.plist， 取消get-task-allow的勾選
+
+	4.0不需用到Entitlements.plist
