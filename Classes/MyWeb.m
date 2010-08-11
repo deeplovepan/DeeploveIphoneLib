@@ -11,12 +11,13 @@
 
 @implementation MyWeb
 
-+(NSData*)sendReqForUrl:(NSString*)urlString body:(NSData*)body
-{	
++(NSData*)uploadImageToUrl:(NSString*)urlString body:(NSData*)body 
+				  boundary:(NSString*)boundary
+{
 	NSURL *url = [NSURL URLWithString:urlString];
 	NSMutableURLRequest *urlRequest = [NSMutableURLRequest requestWithURL:url  
-								cachePolicy:NSURLRequestReturnCacheDataElseLoad
-								timeoutInterval:30];
+															  cachePolicy:NSURLRequestReturnCacheDataElseLoad
+														  timeoutInterval:30];
 	if(body == nil)
 	{
 		[urlRequest setHTTPMethod: @"GET" ];
@@ -25,10 +26,45 @@
 	{
 		[urlRequest setHTTPMethod: @"POST" ];
 		[urlRequest setHTTPBody:body];
-
-
+		
+		
 	}
+	
+	NSString *contentType = [NSString stringWithFormat:@"multipart/form-data; boundary=%@",
+							 boundary];
+	[urlRequest addValue:contentType forHTTPHeaderField: @"Content-Type"];
+	
+	NSURLResponse *urlResponse = nil;
+	NSError *error = nil;
+	NSData *responseData = [NSURLConnection sendSynchronousRequest:urlRequest
+												 returningResponse:&urlResponse
+															 error:&error];
+	NSLog(@"%s", [responseData bytes]);
+	//NSLog(@"%p", error);
+	//NSString *responseString = [[NSString alloc] initWithData:responseData
+	//										encoding:NSUTF8StringEncoding];
+	//NSLog(@"%@", responseString);
+	return [responseData copy];
+}
 
++(NSData*)sendReqForUrl:(NSString*)urlString body:(NSData*)body
+{	
+	NSURL *url = [NSURL URLWithString:urlString];
+	NSMutableURLRequest *urlRequest = [NSMutableURLRequest requestWithURL:url  
+															  cachePolicy:NSURLRequestReturnCacheDataElseLoad
+														  timeoutInterval:30];
+	if(body == nil)
+	{
+		[urlRequest setHTTPMethod: @"GET" ];
+	}
+	else
+	{
+		[urlRequest setHTTPMethod: @"POST" ];
+		[urlRequest setHTTPBody:body];
+		
+		
+	}
+	
 	NSURLResponse *urlResponse = nil;
 	NSError *error = nil;
 	NSData *responseData = [NSURLConnection sendSynchronousRequest:urlRequest
@@ -40,7 +76,6 @@
 	//										encoding:NSUTF8StringEncoding];
 	//NSLog(@"%@", responseString);
 	return [responseData copy];
-
 }
 
 @end
