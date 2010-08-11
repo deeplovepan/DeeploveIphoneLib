@@ -10,8 +10,9 @@
 
 
 @interface MyWeb : NSObject {
-
+	
 }
 +(NSData*)sendReqForUrl:(NSString*)urlString body:(NSData*)body;
-
++(NSData*)uploadImageToUrl:(NSString*)urlString body:(NSData*)body 
+				  boundary:(NSString*)boundary;
 @end
