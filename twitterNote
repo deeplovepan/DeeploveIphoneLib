@@ -1,0 +1,27 @@
+twitter note
+other Lib
+
+get consumer key & consumer secret:
+from 
+http://twitter.com/oauth_clients/new
+show registered App:
+http://twitter.com/oauth_clients  
+
+use OAuth to login & use Twitter API:
+1. get Twitter-OAuth-iPhone project
+	git clone http://github.com/bengottlieb/Twitter-OAuth-iPhone.git
+2. create libOauth.a from Twitter-OAuth-iPhone/OAuthConsumeriPhoneLib/build
+	lipo -create Release-iphoneos/libOAuthConsumer_iPhone.a 
+	Debug-iphonesimulator/libOAuthConsumer_iPhone.a -output libOAuth.a 
+3. add libOAuth.a to Twitter-OAuth-iPhone/Demo project 
+4. set header search path $(SDKROOT)/usr/include/libxml2 in target  
+5. modify kOAuthConsumerKey & kOAuthConsumerSecret in OAuthTwitterDemoViewController.m 
+6. post on twitter:
+	[_engine sendUpdate:@"hello"];
+	
+use library:
+1. add MGTwitterEngine, SAOAuthTwitterEngine, Libraries & Headers into project
+2. set header search path $(SDKROOT)/usr/include/libxml2 in target 
+3. test reference:
+   TwitterTestViewController
+   
