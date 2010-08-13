@@ -1,0 +1,16 @@
+create xcode template
+tip
+
+1. create one project, make some changes.
+   We want this project as template
+
+2. goto 
+   /Library/Application Support/Developer/Shared/Xcode/Project Templates/
+
+3. mkdir MyTemplate
+   MyTemplate is group folder for our templates
+   
+4. cd MyTemplate
+   mkdir MyTemplate1
+
+5. copy all files in project into MyTemplate1 directory
