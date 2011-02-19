@@ -10,7 +10,7 @@
 
 @implementation MyInAppPurchase
 
-@synthesize productIdList;
+@synthesize productIdArray;
 
 -(void)getProjectsInfo
 {
@@ -19,7 +19,7 @@
 	// set product id defined in itunes connect 
 	[[SKPaymentQueue defaultQueue] addTransactionObserver:self];
     productRequest = [[SKProductsRequest alloc] initWithProductIdentifiers:
-					  [NSSet setWithArray:productIdList]];  
+					  [NSSet setWithArray:productIdArray]];  
 	
     productRequest.delegate = self;  
     [productRequest start]; 
@@ -27,7 +27,7 @@
 
 - (void)dealloc {
 	[productRequest release];
-	[productIdList release];
+	[productIdArray release];
     [super dealloc];
 }
 

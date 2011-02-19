@@ -13,9 +13,9 @@
 @interface MyInAppPurchase : NSObject <SKProductsRequestDelegate,
 SKPaymentTransactionObserver> {
 	SKProductsRequest *productRequest;
-	NSMutableArray *productIdList;  
+	NSMutableArray *productIdArray;  
 }
-@property (nonatomic, retain) NSMutableArray *productIdList;
+@property (nonatomic, retain) NSMutableArray *productIdArray;
 
 -(void)getProjectsInfo;
 
