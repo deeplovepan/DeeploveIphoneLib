@@ -11,6 +11,16 @@
 
 @implementation MyWeb
 
++(UIImage*)downloadImageFromUrl:(NSString*)urlString
+{
+	NSURL *url = [NSURL URLWithString:urlString];
+	NSData *data = [[NSData alloc]
+					initWithContentsOfURL:url];
+	UIImage *image = [UIImage imageWithData:data];
+	[data release];
+	return image;
+}
+
 +(NSData*)uploadImageToUrl:(NSString*)urlString body:(NSData*)body 
 				  boundary:(NSString*)boundary
 {
@@ -75,7 +85,8 @@
 	//NSString *responseString = [[NSString alloc] initWithData:responseData
 	//										encoding:NSUTF8StringEncoding];
 	//NSLog(@"%@", responseString);
-	return [responseData copy];
+	//return [responseData copy];
+	return responseData;
 }
 
 @end

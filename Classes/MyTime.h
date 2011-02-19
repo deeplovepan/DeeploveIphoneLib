@@ -12,5 +12,12 @@
 @interface MyTime : NSObject {
 
 }
++(NSTimeInterval)getTimeDifferenceFromNow:(NSTimeInterval)time;
++(NSString*)getWeekString:(int)week;
++(NSString*)getMonthString:(int)month;
++(void)getDayMonthWeek:(NSDate*)date month:(int*)month
+				   day:(int*)day week:(int*)week;
 +(NSString*)getMinSecondStringFromSecond:(int)second;
++(NSString*)createFullTimeStringFromDate:(NSDate*)date;
+
 @end

@@ -15,8 +15,47 @@
 		2899E5220DE3E06400AC0155 /* MyLibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* MyLibViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* MyLibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* MyLibViewController.m */; };
+		DD020CDE12697C8B00980A78 /* FirstResponder in Resources */ = {isa = PBXBuildFile; fileRef = DD020CDD12697C8B00980A78 /* FirstResponder */; };
+		DD020CF612697DEA00980A78 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DD020CF512697DEA00980A78 /* MyButton.m */; };
+		DD17DE7112217A0B0006F7DD /* CoreData in Resources */ = {isa = PBXBuildFile; fileRef = DD17DE7012217A0B0006F7DD /* CoreData */; };
+		DD1EDA711255A85200972D5C /* keyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD1EDA701255A85200972D5C /* keyboard */; };
+		DD1EDABE1255AE2700972D5C /* UISearchBar in Resources */ = {isa = PBXBuildFile; fileRef = DD1EDABD1255AE2700972D5C /* UISearchBar */; };
+		DD1EDB321255B45000972D5C /* UITextView in Resources */ = {isa = PBXBuildFile; fileRef = DD1EDB311255B45000972D5C /* UITextView */; };
+		DD2432F512C7997500BDE5DC /* cocos2dBasic.m in Resources */ = {isa = PBXBuildFile; fileRef = DD2432F412C7997500BDE5DC /* cocos2dBasic.m */; };
+		DD2506DC126B23F2008BCE6B /* photoAlbum in Resources */ = {isa = PBXBuildFile; fileRef = DD2506DB126B23F2008BCE6B /* photoAlbum */; };
+		DD269490126AF968002B9906 /* defaultImage in Resources */ = {isa = PBXBuildFile; fileRef = DD26948F126AF968002B9906 /* defaultImage */; };
+		DD27B86A1218001500CFAC82 /* UITable in Resources */ = {isa = PBXBuildFile; fileRef = DD27B8691218001500CFAC82 /* UITable */; };
+		DD2B588212771C4300CC5DA6 /* targetSetting in Resources */ = {isa = PBXBuildFile; fileRef = DD2B588112771C4300CC5DA6 /* targetSetting */; };
+		DD3361CD125E005E001B1BC9 /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3361CB125E005E001B1BC9 /* GalleryViewController.m */; };
+		DD3361CE125E005E001B1BC9 /* GalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD3361CC125E005E001B1BC9 /* GalleryViewController.xib */; };
+		DD336216125E038D001B1BC9 /* FullImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD336215125E038D001B1BC9 /* FullImageView.m */; };
+		DD33621D125E03C7001B1BC9 /* FullImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD33621B125E03C7001B1BC9 /* FullImageViewController.m */; };
+		DD33621E125E03C7001B1BC9 /* FullImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD33621C125E03C7001B1BC9 /* FullImageViewController.xib */; };
+		DD36883D125F476000E22772 /* AnimationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DD36883C125F476000E22772 /* AnimationUtil.m */; };
+		DD3A73C912819A7400863125 /* icon in Resources */ = {isa = PBXBuildFile; fileRef = DD3A73C812819A7400863125 /* icon */; };
+		DD409F851271C42600B41390 /* MAE in Resources */ = {isa = PBXBuildFile; fileRef = DD409F841271C42600B41390 /* MAE */; };
+		DD4ED22112661EB000D20D1A /* CoverFlow in Resources */ = {isa = PBXBuildFile; fileRef = DD4ED22012661EB000D20D1A /* CoverFlow */; };
+		DD52CD981256044A00866A55 /* MyMail.m in Sources */ = {isa = PBXBuildFile; fileRef = DD52CD971256044A00866A55 /* MyMail.m */; };
+		DD54A0D31258331C00BB7386 /* File in Resources */ = {isa = PBXBuildFile; fileRef = DD54A0D21258331C00BB7386 /* File */; };
+		DD58A402121F699F00C4057F /* UIButton in Resources */ = {isa = PBXBuildFile; fileRef = DD58A401121F699F00C4057F /* UIButton */; };
+		DD58A41A121F6A8900C4057F /* UITextFIeld in Resources */ = {isa = PBXBuildFile; fileRef = DD58A419121F6A8900C4057F /* UITextFIeld */; };
+		DD5E5FF3122D55D2006C6093 /* MapKit in Resources */ = {isa = PBXBuildFile; fileRef = DD5E5FF2122D55D2006C6093 /* MapKit */; };
+		DD6091DF127BC68900E17E13 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6091DE127BC68900E17E13 /* AsyncImageView.m */; };
+		DD6092D7127C251D00E17E13 /* notification in Resources */ = {isa = PBXBuildFile; fileRef = DD6092D6127C251D00E17E13 /* notification */; };
+		DD68811A12448E26008B0897 /* UISegmentedControl in Resources */ = {isa = PBXBuildFile; fileRef = DD68811912448E26008B0897 /* UISegmentedControl */; };
+		DD6C4F711265EB9500190C5D /* ViewController in Resources */ = {isa = PBXBuildFile; fileRef = DD6C4F701265EB9500190C5D /* ViewController */; };
 		DD6C825812159B7200EED4B3 /* TwitterTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6C825612159B7200EED4B3 /* TwitterTestViewController.m */; };
 		DD6C825912159B7200EED4B3 /* TwitterTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD6C825712159B7200EED4B3 /* TwitterTestViewController.xib */; };
+		DD6C826312159F6000EED4B3 /* UIAlertView in Resources */ = {isa = PBXBuildFile; fileRef = DD6C826212159F6000EED4B3 /* UIAlertView */; };
+		DD6C82C71215AC5100EED4B3 /* UIActionSheet in Resources */ = {isa = PBXBuildFile; fileRef = DD6C82C61215AC5100EED4B3 /* UIActionSheet */; };
+		DD6C836C1215BC8400EED4B3 /* InAppPurchaseNote in Resources */ = {isa = PBXBuildFile; fileRef = DD6C836B1215BC8400EED4B3 /* InAppPurchaseNote */; };
+		DD71130412A6831C0020D2EB /* flurry in Resources */ = {isa = PBXBuildFile; fileRef = DD71130312A6831C0020D2EB /* flurry */; };
+		DD71131F12A685270020D2EB /* AppAnnie in Resources */ = {isa = PBXBuildFile; fileRef = DD71131E12A685270020D2EB /* AppAnnie */; };
+		DD7338261237D53E008B09A8 /* basicInfo in Resources */ = {isa = PBXBuildFile; fileRef = DD7338251237D53E008B09A8 /* basicInfo */; };
+		DD76DCB51216DCCA0009C672 /* geoapi in Resources */ = {isa = PBXBuildFile; fileRef = DD76DCB41216DCCA0009C672 /* geoapi */; };
+		DD79014F1243C7E900915CE0 /* FullMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD79014D1243C7E900915CE0 /* FullMapViewController.m */; };
+		DD7901501243C7E900915CE0 /* FullMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD79014E1243C7E900915CE0 /* FullMapViewController.xib */; };
+		DD7DB2DA122038F40017336E /* MyFile.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7DB2D9122038F40017336E /* MyFile.m */; };
 		DD852918120E78E100CA061C /* MyWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = DD852917120E78E100CA061C /* MyWeb.m */; };
 		DD85296F120E7C8000CA061C /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DD852964120E7C8000CA061C /* NSObject+SBJSON.m */; };
 		DD852970120E7C8000CA061C /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DD852966120E7C8000CA061C /* NSString+SBJSON.m */; };
@@ -27,10 +66,35 @@
 		DD85298A120E840F00CA061C /* ExJson.m in Sources */ = {isa = PBXBuildFile; fileRef = DD852989120E840F00CA061C /* ExJson.m */; };
 		DD852A6E120EAAB000CA061C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD852A6D120EAAB000CA061C /* MediaPlayer.framework */; };
 		DD8A8E5512130DEC001E3C45 /* createXcodeTemplate in Resources */ = {isa = PBXBuildFile; fileRef = DD8A8E5412130DEC001E3C45 /* createXcodeTemplate */; };
-		DD8D4E6C12130547005015E2 /* navigationBar in Resources */ = {isa = PBXBuildFile; fileRef = DD8D4E6B12130547005015E2 /* navigationBar */; };
+		DD8ABB9C12366AAA009BA738 /* shareKit in Resources */ = {isa = PBXBuildFile; fileRef = DD8ABB9B12366AAA009BA738 /* shareKit */; };
+		DD8B9C5712621EFE001FA860 /* memory in Resources */ = {isa = PBXBuildFile; fileRef = DD8B9C5612621EFE001FA860 /* memory */; };
+		DD8D4E6C12130547005015E2 /* navigationController in Resources */ = {isa = PBXBuildFile; fileRef = DD8D4E6B12130547005015E2 /* navigationController */; };
+		DD972A461265D82200CA9AF8 /* UIImageView in Resources */ = {isa = PBXBuildFile; fileRef = DD972A451265D82200CA9AF8 /* UIImageView */; };
+		DD9D4ED9126DD0C3002FE1F9 /* AppSetting in Resources */ = {isa = PBXBuildFile; fileRef = DD9D4ED8126DD0C3002FE1F9 /* AppSetting */; };
+		DD9D4FF8126DD37C002FE1F9 /* Xcode in Resources */ = {isa = PBXBuildFile; fileRef = DD9D4FF7126DD37C002FE1F9 /* Xcode */; };
 		DDA3A480120D4B2D00375DA1 /* MyTime.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA3A47F120D4B2D00375DA1 /* MyTime.m */; };
 		DDA3A4D6120D4FE300375DA1 /* MyMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA3A4D5120D4FE300375DA1 /* MyMusic.m */; };
+		DDA57B491272D3AF001E16D8 /* Location in Resources */ = {isa = PBXBuildFile; fileRef = DDA57B481272D3AF001E16D8 /* Location */; };
+		DDA57B831272D719001E16D8 /* MyMap.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA57B821272D719001E16D8 /* MyMap.m */; };
+		DDAB2B5A124FB4A500EE48C8 /* NSRunLoop in Resources */ = {isa = PBXBuildFile; fileRef = DDAB2B59124FB4A500EE48C8 /* NSRunLoop */; };
+		DDAB58E9121848A10057668E /* animation in Resources */ = {isa = PBXBuildFile; fileRef = DDAB58E8121848A10057668E /* animation */; };
 		DDB86D391210560A00D92475 /* adHocDistribution in Resources */ = {isa = PBXBuildFile; fileRef = DDB86D381210560A00D92475 /* adHocDistribution */; };
+		DDBA160B130FC7EC0099A84B /* MyInAppPurchase.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBA160A130FC7EC0099A84B /* MyInAppPurchase.m */; };
+		DDC0FEE1124611420065DFBF /* ExMyWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC0FEE0124611420065DFBF /* ExMyWeb.m */; };
+		DDC23275123BCA8B0098C793 /* MyMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC23274123BCA8B0098C793 /* MyMapAnnotation.m */; };
+		DDC2331F123BDB090098C793 /* MyGeoApi.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC2331E123BDB090098C793 /* MyGeoApi.m */; };
+		DDC819761246246500356659 /* UIScrollView in Resources */ = {isa = PBXBuildFile; fileRef = DDC819751246246500356659 /* UIScrollView */; };
+		DDC819C812462CA100356659 /* UIView in Resources */ = {isa = PBXBuildFile; fileRef = DDC819C712462CA100356659 /* UIView */; };
+		DDDFD41D12411A2200762B76 /* UILabel in Resources */ = {isa = PBXBuildFile; fileRef = DDDFD41C12411A2200762B76 /* UILabel */; };
+		DDE12F191229107200575392 /* MyTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE12F181229107200575392 /* MyTwitter.m */; };
+		DDEF56DC121FA30A005A78E7 /* MyImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEF56DB121FA30A005A78E7 /* MyImage.m */; };
+		DDF255DD12FACDF90062877C /* Selector.m in Resources */ = {isa = PBXBuildFile; fileRef = DDF255DC12FACDF90062877C /* Selector.m */; };
+		DDF255DF12FACEE80062877C /* SceneAndLayer.m in Resources */ = {isa = PBXBuildFile; fileRef = DDF255DE12FACEE80062877C /* SceneAndLayer.m */; };
+		DDF2562612FAF0F60062877C /* cocos2dSchedule.m in Resources */ = {isa = PBXBuildFile; fileRef = DDF2562512FAF0F60062877C /* cocos2dSchedule.m */; };
+		DDF2567212FAF9330062877C /* cocos2dTouch.m in Resources */ = {isa = PBXBuildFile; fileRef = DDF2567112FAF9330062877C /* cocos2dTouch.m */; };
+		DDF2568C12FAFDFC0062877C /* CCSprite.m in Resources */ = {isa = PBXBuildFile; fileRef = DDF2568B12FAFDFC0062877C /* CCSprite.m */; };
+		DDF2569412FB0C360062877C /* anchorPoint in Resources */ = {isa = PBXBuildFile; fileRef = DDF2569312FB0C360062877C /* anchorPoint */; };
+		DDF2569612FB0CF00062877C /* texture in Resources */ = {isa = PBXBuildFile; fileRef = DDF2569512FB0CF00062877C /* texture */; };
 		DDF374AC12157FA000C88E32 /* SA_OAuthTwitterController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF374A812157FA000C88E32 /* SA_OAuthTwitterController.m */; };
 		DDF374AD12157FA000C88E32 /* SA_OAuthTwitterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF374AA12157FA000C88E32 /* SA_OAuthTwitterEngine.m */; };
 		DDF374AE12157FA000C88E32 /* twitter_load.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF374AB12157FA000C88E32 /* twitter_load.png */; };
@@ -68,9 +132,57 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MyLib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLib_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* MyLib-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MyLib-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		DD020CDD12697C8B00980A78 /* FirstResponder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FirstResponder; sourceTree = "<group>"; };
+		DD020CF412697DEA00980A78 /* MyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
+		DD020CF512697DEA00980A78 /* MyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
+		DD17DE7012217A0B0006F7DD /* CoreData */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CoreData; sourceTree = "<group>"; };
+		DD1EDA701255A85200972D5C /* keyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keyboard; sourceTree = "<group>"; };
+		DD1EDABD1255AE2700972D5C /* UISearchBar */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UISearchBar; sourceTree = "<group>"; };
+		DD1EDB311255B45000972D5C /* UITextView */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UITextView; sourceTree = "<group>"; };
+		DD2432F412C7997500BDE5DC /* cocos2dBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cocos2dBasic.m; sourceTree = "<group>"; };
+		DD2506DB126B23F2008BCE6B /* photoAlbum */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = photoAlbum; sourceTree = "<group>"; };
+		DD26948F126AF968002B9906 /* defaultImage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = defaultImage; sourceTree = "<group>"; };
+		DD27B8691218001500CFAC82 /* UITable */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UITable; sourceTree = "<group>"; };
+		DD2B588112771C4300CC5DA6 /* targetSetting */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = targetSetting; sourceTree = "<group>"; };
+		DD3361CA125E005D001B1BC9 /* GalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryViewController.h; sourceTree = "<group>"; };
+		DD3361CB125E005E001B1BC9 /* GalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryViewController.m; sourceTree = "<group>"; };
+		DD3361CC125E005E001B1BC9 /* GalleryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryViewController.xib; sourceTree = "<group>"; };
+		DD336214125E038D001B1BC9 /* FullImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullImageView.h; sourceTree = "<group>"; };
+		DD336215125E038D001B1BC9 /* FullImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullImageView.m; sourceTree = "<group>"; };
+		DD33621A125E03C7001B1BC9 /* FullImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullImageViewController.h; sourceTree = "<group>"; };
+		DD33621B125E03C7001B1BC9 /* FullImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullImageViewController.m; sourceTree = "<group>"; };
+		DD33621C125E03C7001B1BC9 /* FullImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FullImageViewController.xib; sourceTree = "<group>"; };
+		DD36883B125F476000E22772 /* AnimationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationUtil.h; sourceTree = "<group>"; };
+		DD36883C125F476000E22772 /* AnimationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationUtil.m; sourceTree = "<group>"; };
+		DD3A73C812819A7400863125 /* icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = icon; sourceTree = "<group>"; };
+		DD409F841271C42600B41390 /* MAE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MAE; sourceTree = "<group>"; };
+		DD4ED22012661EB000D20D1A /* CoverFlow */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CoverFlow; sourceTree = "<group>"; };
+		DD52CD961256044A00866A55 /* MyMail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMail.h; sourceTree = "<group>"; };
+		DD52CD971256044A00866A55 /* MyMail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMail.m; sourceTree = "<group>"; };
+		DD54A0D21258331C00BB7386 /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		DD58A401121F699F00C4057F /* UIButton */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UIButton; sourceTree = "<group>"; };
+		DD58A419121F6A8900C4057F /* UITextFIeld */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UITextFIeld; sourceTree = "<group>"; };
+		DD5E5FF2122D55D2006C6093 /* MapKit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MapKit; sourceTree = "<group>"; };
+		DD6091DD127BC68900E17E13 /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		DD6091DE127BC68900E17E13 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		DD6092D6127C251D00E17E13 /* notification */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notification; sourceTree = "<group>"; };
+		DD68811912448E26008B0897 /* UISegmentedControl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UISegmentedControl; sourceTree = "<group>"; };
+		DD6C4F701265EB9500190C5D /* ViewController */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ViewController; sourceTree = "<group>"; };
 		DD6C825512159B7200EED4B3 /* TwitterTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterTestViewController.h; sourceTree = "<group>"; };
 		DD6C825612159B7200EED4B3 /* TwitterTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterTestViewController.m; sourceTree = "<group>"; };
 		DD6C825712159B7200EED4B3 /* TwitterTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwitterTestViewController.xib; sourceTree = "<group>"; };
+		DD6C826212159F6000EED4B3 /* UIAlertView */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UIAlertView; sourceTree = "<group>"; };
+		DD6C82C61215AC5100EED4B3 /* UIActionSheet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UIActionSheet; sourceTree = "<group>"; };
+		DD6C836B1215BC8400EED4B3 /* InAppPurchaseNote */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InAppPurchaseNote; sourceTree = "<group>"; };
+		DD71130312A6831C0020D2EB /* flurry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = flurry; sourceTree = "<group>"; };
+		DD71131E12A685270020D2EB /* AppAnnie */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppAnnie; sourceTree = "<group>"; };
+		DD7338251237D53E008B09A8 /* basicInfo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = basicInfo; sourceTree = "<group>"; };
+		DD76DCB41216DCCA0009C672 /* geoapi */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = geoapi; sourceTree = "<group>"; };
+		DD79014C1243C7E900915CE0 /* FullMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullMapViewController.h; sourceTree = "<group>"; };
+		DD79014D1243C7E900915CE0 /* FullMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullMapViewController.m; sourceTree = "<group>"; };
+		DD79014E1243C7E900915CE0 /* FullMapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FullMapViewController.xib; sourceTree = "<group>"; };
+		DD7DB2D8122038F40017336E /* MyFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFile.h; sourceTree = "<group>"; };
+		DD7DB2D9122038F40017336E /* MyFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFile.m; sourceTree = "<group>"; };
 		DD852916120E78E100CA061C /* MyWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWeb.h; sourceTree = "<group>"; };
 		DD852917120E78E100CA061C /* MyWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWeb.m; sourceTree = "<group>"; };
 		DD852962120E7C8000CA061C /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
@@ -90,12 +202,44 @@
 		DD852989120E840F00CA061C /* ExJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExJson.m; sourceTree = "<group>"; };
 		DD852A6D120EAAB000CA061C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		DD8A8E5412130DEC001E3C45 /* createXcodeTemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = createXcodeTemplate; sourceTree = "<group>"; };
-		DD8D4E6B12130547005015E2 /* navigationBar */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = navigationBar; sourceTree = "<group>"; };
+		DD8ABB9B12366AAA009BA738 /* shareKit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shareKit; sourceTree = "<group>"; };
+		DD8B9C5612621EFE001FA860 /* memory */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = memory; sourceTree = "<group>"; };
+		DD8D4E6B12130547005015E2 /* navigationController */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = navigationController; sourceTree = "<group>"; };
+		DD972A451265D82200CA9AF8 /* UIImageView */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UIImageView; sourceTree = "<group>"; };
+		DD9D4ED8126DD0C3002FE1F9 /* AppSetting */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppSetting; sourceTree = "<group>"; };
+		DD9D4FF7126DD37C002FE1F9 /* Xcode */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Xcode; sourceTree = "<group>"; };
 		DDA3A47E120D4B2D00375DA1 /* MyTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTime.h; sourceTree = "<group>"; };
 		DDA3A47F120D4B2D00375DA1 /* MyTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTime.m; sourceTree = "<group>"; };
 		DDA3A4D4120D4FE300375DA1 /* MyMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMusic.h; sourceTree = "<group>"; };
 		DDA3A4D5120D4FE300375DA1 /* MyMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMusic.m; sourceTree = "<group>"; };
+		DDA57B481272D3AF001E16D8 /* Location */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Location; sourceTree = "<group>"; };
+		DDA57B811272D719001E16D8 /* MyMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMap.h; sourceTree = "<group>"; };
+		DDA57B821272D719001E16D8 /* MyMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMap.m; sourceTree = "<group>"; };
+		DDAB2B59124FB4A500EE48C8 /* NSRunLoop */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NSRunLoop; sourceTree = "<group>"; };
+		DDAB58E8121848A10057668E /* animation */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = animation; sourceTree = "<group>"; };
 		DDB86D381210560A00D92475 /* adHocDistribution */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = adHocDistribution; sourceTree = "<group>"; };
+		DDBA1609130FC7EC0099A84B /* MyInAppPurchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInAppPurchase.h; sourceTree = "<group>"; };
+		DDBA160A130FC7EC0099A84B /* MyInAppPurchase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInAppPurchase.m; sourceTree = "<group>"; };
+		DDC0FEDF124611420065DFBF /* ExMyWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExMyWeb.h; sourceTree = "<group>"; };
+		DDC0FEE0124611420065DFBF /* ExMyWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExMyWeb.m; sourceTree = "<group>"; };
+		DDC23273123BCA8B0098C793 /* MyMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMapAnnotation.h; sourceTree = "<group>"; };
+		DDC23274123BCA8B0098C793 /* MyMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMapAnnotation.m; sourceTree = "<group>"; };
+		DDC2331D123BDB090098C793 /* MyGeoApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGeoApi.h; sourceTree = "<group>"; };
+		DDC2331E123BDB090098C793 /* MyGeoApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGeoApi.m; sourceTree = "<group>"; };
+		DDC819751246246500356659 /* UIScrollView */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UIScrollView; sourceTree = "<group>"; };
+		DDC819C712462CA100356659 /* UIView */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UIView; sourceTree = "<group>"; };
+		DDDFD41C12411A2200762B76 /* UILabel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UILabel; sourceTree = "<group>"; };
+		DDE12F171229107200575392 /* MyTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTwitter.h; sourceTree = "<group>"; };
+		DDE12F181229107200575392 /* MyTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTwitter.m; sourceTree = "<group>"; };
+		DDEF56DA121FA30A005A78E7 /* MyImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImage.h; sourceTree = "<group>"; };
+		DDEF56DB121FA30A005A78E7 /* MyImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImage.m; sourceTree = "<group>"; };
+		DDF255DC12FACDF90062877C /* Selector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Selector.m; sourceTree = "<group>"; };
+		DDF255DE12FACEE80062877C /* SceneAndLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneAndLayer.m; sourceTree = "<group>"; };
+		DDF2562512FAF0F60062877C /* cocos2dSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cocos2dSchedule.m; sourceTree = "<group>"; };
+		DDF2567112FAF9330062877C /* cocos2dTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cocos2dTouch.m; sourceTree = "<group>"; };
+		DDF2568B12FAFDFC0062877C /* CCSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSprite.m; sourceTree = "<group>"; };
+		DDF2569312FB0C360062877C /* anchorPoint */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = anchorPoint; sourceTree = "<group>"; };
+		DDF2569512FB0CF00062877C /* texture */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = texture; sourceTree = "<group>"; };
 		DDF374A712157FA000C88E32 /* SA_OAuthTwitterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_OAuthTwitterController.h; sourceTree = "<group>"; };
 		DDF374A812157FA000C88E32 /* SA_OAuthTwitterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SA_OAuthTwitterController.m; sourceTree = "<group>"; };
 		DDF374A912157FA000C88E32 /* SA_OAuthTwitterEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_OAuthTwitterEngine.h; sourceTree = "<group>"; };
@@ -173,16 +317,42 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DD3361BB125DFFB6001B1BC9 /* UITemplate */,
 				1D3623240D0F684500981E51 /* MyLibAppDelegate.h */,
 				1D3623250D0F684500981E51 /* MyLibAppDelegate.m */,
+				DD36883B125F476000E22772 /* AnimationUtil.h */,
+				DD36883C125F476000E22772 /* AnimationUtil.m */,
 				28D7ACF60DDB3853001CB0EB /* MyLibViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* MyLibViewController.m */,
 				DDA3A47E120D4B2D00375DA1 /* MyTime.h */,
 				DDA3A47F120D4B2D00375DA1 /* MyTime.m */,
+				DDBA1609130FC7EC0099A84B /* MyInAppPurchase.h */,
+				DDBA160A130FC7EC0099A84B /* MyInAppPurchase.m */,
 				DDA3A4D4120D4FE300375DA1 /* MyMusic.h */,
 				DDA3A4D5120D4FE300375DA1 /* MyMusic.m */,
 				DD852916120E78E100CA061C /* MyWeb.h */,
 				DD852917120E78E100CA061C /* MyWeb.m */,
+				DDEF56DA121FA30A005A78E7 /* MyImage.h */,
+				DDEF56DB121FA30A005A78E7 /* MyImage.m */,
+				DD6091DD127BC68900E17E13 /* AsyncImageView.h */,
+				DD6091DE127BC68900E17E13 /* AsyncImageView.m */,
+				DD7DB2D8122038F40017336E /* MyFile.h */,
+				DD7DB2D9122038F40017336E /* MyFile.m */,
+				DD020CF412697DEA00980A78 /* MyButton.h */,
+				DD020CF512697DEA00980A78 /* MyButton.m */,
+				DDE12F171229107200575392 /* MyTwitter.h */,
+				DDE12F181229107200575392 /* MyTwitter.m */,
+				DDC23273123BCA8B0098C793 /* MyMapAnnotation.h */,
+				DDC23274123BCA8B0098C793 /* MyMapAnnotation.m */,
+				DDC2331D123BDB090098C793 /* MyGeoApi.h */,
+				DDC2331E123BDB090098C793 /* MyGeoApi.m */,
+				DD79014C1243C7E900915CE0 /* FullMapViewController.h */,
+				DD79014D1243C7E900915CE0 /* FullMapViewController.m */,
+				DD79014E1243C7E900915CE0 /* FullMapViewController.xib */,
+				DD52CD961256044A00866A55 /* MyMail.h */,
+				DD52CD971256044A00866A55 /* MyMail.m */,
+				DDA57B811272D719001E16D8 /* MyMap.h */,
+				DDA57B821272D719001E16D8 /* MyMap.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -198,6 +368,9 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				DDF255DB12FACDD30062877C /* ExampleBook */,
+				DD2432F312C7995E00BDE5DC /* cocos2d */,
+				DD409F831271C41A00B41390 /* private */,
 				DDB86D37121055F600D92475 /* note */,
 				DD852987120E83F300CA061C /* example */,
 				DD852953120E7C5700CA061C /* OtherLib */,
@@ -240,6 +413,51 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DD2432F312C7995E00BDE5DC /* cocos2d */ = {
+			isa = PBXGroup;
+			children = (
+				DD2432F412C7997500BDE5DC /* cocos2dBasic.m */,
+				DDF255DE12FACEE80062877C /* SceneAndLayer.m */,
+				DDF2562512FAF0F60062877C /* cocos2dSchedule.m */,
+				DDF2567112FAF9330062877C /* cocos2dTouch.m */,
+				DDF2568B12FAFDFC0062877C /* CCSprite.m */,
+				DDF2569312FB0C360062877C /* anchorPoint */,
+				DDF2569512FB0CF00062877C /* texture */,
+			);
+			name = cocos2d;
+			sourceTree = "<group>";
+		};
+		DD3361BB125DFFB6001B1BC9 /* UITemplate */ = {
+			isa = PBXGroup;
+			children = (
+				DD336213125E0369001B1BC9 /* gallery */,
+			);
+			name = UITemplate;
+			sourceTree = "<group>";
+		};
+		DD336213125E0369001B1BC9 /* gallery */ = {
+			isa = PBXGroup;
+			children = (
+				DD33621A125E03C7001B1BC9 /* FullImageViewController.h */,
+				DD33621B125E03C7001B1BC9 /* FullImageViewController.m */,
+				DD33621C125E03C7001B1BC9 /* FullImageViewController.xib */,
+				DD336214125E038D001B1BC9 /* FullImageView.h */,
+				DD336215125E038D001B1BC9 /* FullImageView.m */,
+				DD3361CA125E005D001B1BC9 /* GalleryViewController.h */,
+				DD3361CB125E005E001B1BC9 /* GalleryViewController.m */,
+				DD3361CC125E005E001B1BC9 /* GalleryViewController.xib */,
+			);
+			name = gallery;
+			sourceTree = "<group>";
+		};
+		DD409F831271C41A00B41390 /* private */ = {
+			isa = PBXGroup;
+			children = (
+				DD409F841271C42600B41390 /* MAE */,
+			);
+			name = private;
+			sourceTree = "<group>";
+		};
 		DD852953120E7C5700CA061C /* OtherLib */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,6 +492,8 @@
 			children = (
 				DD852988120E840F00CA061C /* ExJson.h */,
 				DD852989120E840F00CA061C /* ExJson.m */,
+				DDC0FEDF124611420065DFBF /* ExMyWeb.h */,
+				DDC0FEE0124611420065DFBF /* ExMyWeb.m */,
 			);
 			name = example;
 			sourceTree = "<group>";
@@ -282,11 +502,55 @@
 			isa = PBXGroup;
 			children = (
 				DDB86D381210560A00D92475 /* adHocDistribution */,
-				DD8D4E6B12130547005015E2 /* navigationBar */,
+				DD2B588112771C4300CC5DA6 /* targetSetting */,
+				DD26948F126AF968002B9906 /* defaultImage */,
+				DD8D4E6B12130547005015E2 /* navigationController */,
 				DD8A8E5412130DEC001E3C45 /* createXcodeTemplate */,
 				DDF3755A121580E700C88E32 /* twitterNote */,
+				DD6C826212159F6000EED4B3 /* UIAlertView */,
+				DD6C82C61215AC5100EED4B3 /* UIActionSheet */,
+				DD6C836B1215BC8400EED4B3 /* InAppPurchaseNote */,
+				DD76DCB41216DCCA0009C672 /* geoapi */,
+				DD27B8691218001500CFAC82 /* UITable */,
+				DDAB58E8121848A10057668E /* animation */,
+				DD58A401121F699F00C4057F /* UIButton */,
+				DD58A419121F6A8900C4057F /* UITextFIeld */,
+				DD17DE7012217A0B0006F7DD /* CoreData */,
+				DD5E5FF2122D55D2006C6093 /* MapKit */,
+				DD8ABB9B12366AAA009BA738 /* shareKit */,
+				DD7338251237D53E008B09A8 /* basicInfo */,
+				DDDFD41C12411A2200762B76 /* UILabel */,
+				DD68811912448E26008B0897 /* UISegmentedControl */,
+				DDC819751246246500356659 /* UIScrollView */,
+				DDC819C712462CA100356659 /* UIView */,
+				DDAB2B59124FB4A500EE48C8 /* NSRunLoop */,
+				DD1EDA701255A85200972D5C /* keyboard */,
+				DD1EDABD1255AE2700972D5C /* UISearchBar */,
+				DD1EDB311255B45000972D5C /* UITextView */,
+				DD54A0D21258331C00BB7386 /* File */,
+				DD8B9C5612621EFE001FA860 /* memory */,
+				DD972A451265D82200CA9AF8 /* UIImageView */,
+				DD6C4F701265EB9500190C5D /* ViewController */,
+				DD4ED22012661EB000D20D1A /* CoverFlow */,
+				DD020CDD12697C8B00980A78 /* FirstResponder */,
+				DD2506DB126B23F2008BCE6B /* photoAlbum */,
+				DD9D4ED8126DD0C3002FE1F9 /* AppSetting */,
+				DD9D4FF7126DD37C002FE1F9 /* Xcode */,
+				DDA57B481272D3AF001E16D8 /* Location */,
+				DD6092D6127C251D00E17E13 /* notification */,
+				DD3A73C812819A7400863125 /* icon */,
+				DD71130312A6831C0020D2EB /* flurry */,
+				DD71131E12A685270020D2EB /* AppAnnie */,
 			);
 			name = note;
+			sourceTree = "<group>";
+		};
+		DDF255DB12FACDD30062877C /* ExampleBook */ = {
+			isa = PBXGroup;
+			children = (
+				DDF255DC12FACDF90062877C /* Selector.m */,
+			);
+			name = ExampleBook;
 			sourceTree = "<group>";
 		};
 		DDF374A012157F5A00C88E32 /* Twitter */ = {
@@ -413,7 +677,14 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MyLib" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -431,13 +702,61 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* MyLibViewController.xib in Resources */,
 				DDB86D391210560A00D92475 /* adHocDistribution in Resources */,
-				DD8D4E6C12130547005015E2 /* navigationBar in Resources */,
+				DD8D4E6C12130547005015E2 /* navigationController in Resources */,
 				DD8A8E5512130DEC001E3C45 /* createXcodeTemplate in Resources */,
 				DDF374AE12157FA000C88E32 /* twitter_load.png in Resources */,
 				DDF374F21215802600C88E32 /* jQueryInject.txt in Resources */,
 				DDF374F31215802600C88E32 /* jQueryInjectLandscape.txt in Resources */,
 				DDF3755B121580E700C88E32 /* twitterNote in Resources */,
 				DD6C825912159B7200EED4B3 /* TwitterTestViewController.xib in Resources */,
+				DD6C826312159F6000EED4B3 /* UIAlertView in Resources */,
+				DD6C82C71215AC5100EED4B3 /* UIActionSheet in Resources */,
+				DD6C836C1215BC8400EED4B3 /* InAppPurchaseNote in Resources */,
+				DD76DCB51216DCCA0009C672 /* geoapi in Resources */,
+				DD27B86A1218001500CFAC82 /* UITable in Resources */,
+				DDAB58E9121848A10057668E /* animation in Resources */,
+				DD58A402121F699F00C4057F /* UIButton in Resources */,
+				DD58A41A121F6A8900C4057F /* UITextFIeld in Resources */,
+				DD17DE7112217A0B0006F7DD /* CoreData in Resources */,
+				DD5E5FF3122D55D2006C6093 /* MapKit in Resources */,
+				DD8ABB9C12366AAA009BA738 /* shareKit in Resources */,
+				DD7338261237D53E008B09A8 /* basicInfo in Resources */,
+				DDDFD41D12411A2200762B76 /* UILabel in Resources */,
+				DD7901501243C7E900915CE0 /* FullMapViewController.xib in Resources */,
+				DD68811A12448E26008B0897 /* UISegmentedControl in Resources */,
+				DDC819761246246500356659 /* UIScrollView in Resources */,
+				DDC819C812462CA100356659 /* UIView in Resources */,
+				DDAB2B5A124FB4A500EE48C8 /* NSRunLoop in Resources */,
+				DD1EDA711255A85200972D5C /* keyboard in Resources */,
+				DD1EDABE1255AE2700972D5C /* UISearchBar in Resources */,
+				DD1EDB321255B45000972D5C /* UITextView in Resources */,
+				DD54A0D31258331C00BB7386 /* File in Resources */,
+				DD3361CE125E005E001B1BC9 /* GalleryViewController.xib in Resources */,
+				DD33621E125E03C7001B1BC9 /* FullImageViewController.xib in Resources */,
+				DD8B9C5712621EFE001FA860 /* memory in Resources */,
+				DD972A461265D82200CA9AF8 /* UIImageView in Resources */,
+				DD6C4F711265EB9500190C5D /* ViewController in Resources */,
+				DD4ED22112661EB000D20D1A /* CoverFlow in Resources */,
+				DD020CDE12697C8B00980A78 /* FirstResponder in Resources */,
+				DD269490126AF968002B9906 /* defaultImage in Resources */,
+				DD2506DC126B23F2008BCE6B /* photoAlbum in Resources */,
+				DD9D4ED9126DD0C3002FE1F9 /* AppSetting in Resources */,
+				DD9D4FF8126DD37C002FE1F9 /* Xcode in Resources */,
+				DD409F851271C42600B41390 /* MAE in Resources */,
+				DDA57B491272D3AF001E16D8 /* Location in Resources */,
+				DD2B588212771C4300CC5DA6 /* targetSetting in Resources */,
+				DD6092D7127C251D00E17E13 /* notification in Resources */,
+				DD3A73C912819A7400863125 /* icon in Resources */,
+				DD71130412A6831C0020D2EB /* flurry in Resources */,
+				DD71131F12A685270020D2EB /* AppAnnie in Resources */,
+				DD2432F512C7997500BDE5DC /* cocos2dBasic.m in Resources */,
+				DDF255DD12FACDF90062877C /* Selector.m in Resources */,
+				DDF255DF12FACEE80062877C /* SceneAndLayer.m in Resources */,
+				DDF2562612FAF0F60062877C /* cocos2dSchedule.m in Resources */,
+				DDF2567212FAF9330062877C /* cocos2dTouch.m in Resources */,
+				DDF2568C12FAFDFC0062877C /* CCSprite.m in Resources */,
+				DDF2569412FB0C360062877C /* anchorPoint in Resources */,
+				DDF2569612FB0CF00062877C /* texture in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +797,22 @@
 				DDF374DC12157FD200C88E32 /* NSData+Base64.m in Sources */,
 				DDF374DD12157FD200C88E32 /* NSString+UUID.m in Sources */,
 				DD6C825812159B7200EED4B3 /* TwitterTestViewController.m in Sources */,
+				DDEF56DC121FA30A005A78E7 /* MyImage.m in Sources */,
+				DD7DB2DA122038F40017336E /* MyFile.m in Sources */,
+				DDE12F191229107200575392 /* MyTwitter.m in Sources */,
+				DDC23275123BCA8B0098C793 /* MyMapAnnotation.m in Sources */,
+				DDC2331F123BDB090098C793 /* MyGeoApi.m in Sources */,
+				DD79014F1243C7E900915CE0 /* FullMapViewController.m in Sources */,
+				DDC0FEE1124611420065DFBF /* ExMyWeb.m in Sources */,
+				DD52CD981256044A00866A55 /* MyMail.m in Sources */,
+				DD3361CD125E005E001B1BC9 /* GalleryViewController.m in Sources */,
+				DD336216125E038D001B1BC9 /* FullImageView.m in Sources */,
+				DD33621D125E03C7001B1BC9 /* FullImageViewController.m in Sources */,
+				DD36883D125F476000E22772 /* AnimationUtil.m in Sources */,
+				DD020CF612697DEA00980A78 /* MyButton.m in Sources */,
+				DDA57B831272D719001E16D8 /* MyMap.m in Sources */,
+				DD6091DF127BC68900E17E13 /* AsyncImageView.m in Sources */,
+				DDBA160B130FC7EC0099A84B /* MyInAppPurchase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

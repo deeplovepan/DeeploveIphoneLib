@@ -7,3 +7,8 @@
 3.  3.1.2需新增Entitlements.plist， 取消get-task-allow的勾選
 
 	4.0不需用到Entitlements.plist
+	
+	
+problem:
+1. embedded.mobileprovision already exists
+-> enable "Application requires iPhone environment" on info.plist
